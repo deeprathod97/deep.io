@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep - personal portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" style="border-radius: 50%;" href="https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/459067139_1692347884947539_3793527228285943165_n.jpg?ccb=11-4&oh=01_Q5AaIC_JUqzaU-DINwR1LRQEOkL1r6v0pMdkP7AmGfK9zYWO&oe=678A0CA2&_nc_sid=5e03e0&_nc_cat=102" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Deep<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+         
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/459067139_1692347884947539_3793527228285943165_n.jpg?ccb=11-4&oh=01_Q5AaIC_JUqzaU-DINwR1LRQEOkL1r6v0pMdkP7AmGfK9zYWO&oe=678A0CA2&_nc_sid=5e03e0&_nc_cat=102" media="(min-width: 768px)">
+            <source srcset="https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/459067139_1692347884947539_3793527228285943165_n.jpg?ccb=11-4&oh=01_Q5AaIC_JUqzaU-DINwR1LRQEOkL1r6v0pMdkP7AmGfK9zYWO&oe=678A0CA2&_nc_sid=5e03e0&_nc_cat=102" media="(min-width: 500px)">
+            <img src="https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/459067139_1692347884947539_3793527228285943165_n.jpg?ccb=11-4&oh=01_Q5AaIC_JUqzaU-DINwR1LRQEOkL1r6v0pMdkP7AmGfK9zYWO&oe=678A0CA2&_nc_sid=5e03e0&_nc_cat=102" alt="A man in a blue shirt with a happy expression"
+              class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">Frontend Developer</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          
+
+          <li>
+            <a href="https://github.com/deeprathod97" class="hero-social-link">
+              <ion-icon name="logo-github"></ion-icon>
+
+              <div class="tooltip">github</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/deep-rathod-1a44562ab/" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+
+          
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                20+ <strong>Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+
+          
+          </li>
+
+
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="https://media-pnq1-2.cdn.whatsapp.net/v/t61.24694-24/459067139_1692347884947539_3793527228285943165_n.jpg?ccb=11-4&oh=01_Q5AaIC_JUqzaU-DINwR1LRQEOkL1r6v0pMdkP7AmGfK9zYWO&oe=678A0CA2&_nc_sid=5e03e0&_nc_cat=102" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+            Hi, I’m Deep Rathod, a passionate Frontend Developer with expertise in creating responsive and interactive web applications. I specialize in HTML, CSS, Bootstrap, jQuery, React, and Python. My goal is to craft user-friendly and visually appealing websites that provide seamless experiences.
+
+With a strong foundation in modern web technologies, I enjoy learning and exploring new tools and frameworks to keep up with the latest trends in web development. Let’s build something amazing together!
+
+
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary">Hire me</button>
+
+            <button class="btn btn-primary">Download cv</button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time
+            with those technologies.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+           
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" width="100%" height="100%" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Python</div>
+
+                <div class="card-icon">
+                  <img src="data:image/jpeg;base64,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" width="100%" height="100%"  alt="python logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Works</p>
+
+              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+
+              <p class="section-text">
+                We develop the best quality website that serves for the long-term. Well-documented, clean, easy and
+                elegant interface
+                helps any non-technical clients.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+
+              <div class="card-content">
+              <button> <h3 class="h4 card-title"> <a href="https://github.com/deeprathod97/Deep-Code-Editor.git">Deep-Code-Editor</a></h3> 
+                
+
+                <time class="publish-date" datetime="2022-04"> 2024</time> </button> 
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="assets/images/projecr-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+
+              <div class="card-content">
+              <a href="https://github.com/deeprathod97/gemini.git"> <h3 class="h4 card-title">AI</h3></a> 
+
+                <time class="publish-date" datetime="2022-04"> 2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-3.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 03</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-4.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 04</h3>
+
+                <time class="publish-date" datetime="2022-04">2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-5.png" class="w-100"
+                  alt="On a dark liver background, Airport luggage car carrying a luggage.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 05</h3>
+
+                <time class="publish-date" datetime="2022-04">2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-6.png" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 06</h3>
+
+                <time class="publish-date" datetime="2022-04">2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-7.png" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 07</h3>
+
+                <time class="publish-date" datetime="2022-04">2024</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <button class="load-more">Load more work</button>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Have You Any Project? Please Drop a Message</h2>
+
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  chhabhadiya,lathi,amreli,gujarat pin-365220
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:9737468847" class="contact-info">(+91) 9737468847</a>
+
+                
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:deeprathod788@email.com" class="contact-info">deeprathod788@gmail.com</a>
+
+                <a href="mailto:deeprathod9797@email.com" class="contact-info">deeprathod9797@gmail.com</a>
+              </div>
+
+            </li>
+
+           
+
+                <li>
+                  <a href="https://github.com/deeprathod97" class="contact-social-link">
+                    <div class="tooltip">github</div>
+
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/in/deep-rathod-1a44562ab/" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.youtube.com/@NextGenNews-i2d" class="contact-social-link">
+                    <div class="tooltip">Youtube</div>
+
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g Deep Rathod" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g deeprathod788@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Deep<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2022 <a href="https://github.com/deeprathod97">codewithsadeep</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
